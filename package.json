@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc -b",
-    "start": "node dist/index.js"
+    "dev": "node dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/DragNCode/Engine/issues"
   },
-  "homepage": "https://github.com/DragNCode/Engine#readme"
+  "homepage": "https://github.com/DragNCode/Engine#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21"
+  }
 }
